@@ -3,7 +3,7 @@
 //  - fetches icons over the websocket (cached in the browser)
 //  - server pushes "folder changed" events, so new/edited icons show up live
 
-const DOMAIN = "auto_icons";
+const DOMAIN = "auto_custom_icons";
 const SVG_NS = "http://www.w3.org/2000/svg";
 const MISSING_RETRY_MS = 5000;
 
