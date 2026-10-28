@@ -1,7 +1,7 @@
 """Constants for Auto Icons."""
 from datetime import timedelta
 
-DOMAIN = "auto_icons"
+DOMAIN = "auto_custom_icons"
 VERSION = "1.0.0"
 
 CONF_FOLDER = "folder"
