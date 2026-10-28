@@ -1,10 +1,10 @@
 {
-  "domain": "auto_icons",
-  "name": "Auto Icons",
+  "domain": "auto_custom_icons",
+  "name": "Auto Custom Icons",
   "codeowners": [],
   "config_flow": true,
   "dependencies": ["frontend", "http", "websocket_api"],
-  "documentation": "https://github.com/jonathangibson98/hass-auto_icons",
+  "documentation": "https://github.com/jonathangibson98/ha-custom-icons",
   "integration_type": "service",
   "iot_class": "calculated",
   "requirements": [],
