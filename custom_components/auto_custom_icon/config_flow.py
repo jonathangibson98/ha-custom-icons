@@ -20,8 +20,8 @@ RESERVED_FOLDERS = {
 }
 # Prefixes the HA frontend (or other icon packs) already uses.
 RESERVED_PREFIXES = {
-    "mdi", "hass", "phu", "fapro", "far", "fas", "fab", "fa", "custom",
-    "local", "simple-icons", "si",
+    "mdi", "hass", "phu", "fapro", "far", "fas", "fab", "fa",
+    "simple-icons", "si",
 }
 
 
