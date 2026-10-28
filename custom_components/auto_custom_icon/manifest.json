@@ -1,0 +1,12 @@
+{
+  "domain": "auto_icons",
+  "name": "Auto Icons",
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": ["frontend", "http", "websocket_api"],
+  "documentation": "https://github.com/jonathangibson98/hass-auto_icons",
+  "integration_type": "service",
+  "iot_class": "calculated",
+  "requirements": [],
+  "version": "1.0.0"
+}
