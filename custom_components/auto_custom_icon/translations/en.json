@@ -1,1 +1,29 @@
-yo
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add an icon folder",
+        "description": "Pick a folder name. It gets created inside your /config directory. Drop .svg files in it and they show up automatically, no reload needed.",
+        "data": {
+          "folder": "Folder name",
+          "prefix": "Icon prefix (optional)"
+        },
+        "data_description": {
+          "folder": "Letters, numbers, _ and - only. Example: my_icons creates /config/my_icons",
+          "prefix": "What you type before the colon, like prefix:icon_name. Leave blank to use the folder name."
+        }
+      }
+    },
+    "error": {
+      "invalid_folder": "Folder name can only use letters, numbers, _ and - (no slashes or spaces).",
+      "reserved_folder": "That folder is used by Home Assistant. Pick a different name.",
+      "invalid_prefix": "Prefix must be lowercase letters, numbers, _ or -.",
+      "reserved_prefix": "That prefix is already used by Home Assistant. Pick a different one.",
+      "folder_in_use": "You already added that folder.",
+      "prefix_in_use": "You already use that prefix."
+    },
+    "abort": {
+      "already_configured": "That prefix is already set up."
+    }
+  }
+}
