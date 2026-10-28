@@ -1,0 +1,13 @@
+{
+  "domain": "auto_custom_icons",
+  "name": "Auto Custom Icons",
+  "codeowners": ["@jonathangibson98"],
+  "config_flow": true,
+  "dependencies": ["frontend", "http", "websocket_api"],
+  "documentation": "https://github.com/jonathangibson98/ha-custom-icons",
+  "integration_type": "service",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/jonathangibson98/ha-custom-icons/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}

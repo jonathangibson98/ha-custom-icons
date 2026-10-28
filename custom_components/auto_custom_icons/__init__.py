@@ -1,4 +1,4 @@
-"""Auto Icons: pick a folder, drop SVGs in, use them as prefix:name. No reloads."""
+"""Auto Custom Icons: pick a folder, drop SVGs in, use them as prefix:name. No reloads."""
 from __future__ import annotations
 
 import logging
@@ -160,7 +160,7 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     data["watchers"][entry.entry_id] = watcher
 
     async_dispatcher_send(hass, SIGNAL_CHANGED, {"prefix": prefix, "kind": "entries"})
-    _LOGGER.info("Auto Icons watching %s as '%s:'", root, prefix)
+    _LOGGER.info("Auto Custom Icons watching %s as '%s:'", root, prefix)
     return True
 
 
