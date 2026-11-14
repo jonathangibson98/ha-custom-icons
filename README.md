@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://github.com/hacs/integration"><img alt="HACS Custom" src="https://img.shields.io/badge/HACS-Custom-41BDF5.svg"></a>
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
-  <a href="https://github.com/jonathangibson98/ha-custom-icons/actions/workflows/hassfest.yaml"><img alt="Hassfest" src="https://github.com/jonathangibson98/ha-custom-icons/actions/workflows/hassfest.yaml/badge.svg"></a>
+  <a href="https://github.com/jonathangibson98/ha-custom-icons/actions/workflows/hassfest.yaml"><img alt="Hassfest" src="https://github.com/jonathangibson98/ha-custom-icons/actions/workflows/hassfest.yaml/badge.svg?branch=main"></a>
 </p>
 
 # Auto Custom Icons
